@@ -59,7 +59,7 @@ TFMini Plus uses I2C communication protocol.
 
 ### Source Code and Outputs
 
-Source code is adapted from Garmin [Github](https://github.com/garmin/LIDARLite_Arduino_Library/tree/master/examples/v4LED) ($29.95). The included file copies from [v4LED_fast.ino](https://github.com/garmin/LIDARLite_Arduino_Library/blob/master/examples/v4LED/v4LED_fast/v4LED_fast.ino), but `myLidarLite` is initialized using configuation `5` (high accuracy, low error mode).
+Source code is adapted from Garmin [Github](https://github.com/garmin/LIDARLite_Arduino_Library/tree/master/examples/v4LED). The included file copies from [v4LED_fast.ino](https://github.com/garmin/LIDARLite_Arduino_Library/blob/master/examples/v4LED/v4LED_fast/v4LED_fast.ino), but `myLidarLite` is initialized using configuation `5` (high accuracy, low error mode).
 
 <img src="garmin_lidar_litev4/serial_monitor.png" width="500">;
 
@@ -67,7 +67,7 @@ Source code is adapted from Garmin [Github](https://github.com/garmin/LIDARLite_
 
 ## Sharp GP2Y0A710K0F   <a name="sharp"></a>
 
-Sharp GP2Y0A710K0F can be found on [Adafruit](https://www.adafruit.com/product/1568). Official documentation for this module is [here](https://cdn-shop.adafruit.com/datasheets/gp2y0a710k.pdf).
+Sharp GP2Y0A710K0F can be found on [Adafruit](https://www.adafruit.com/product/1568) ($29.95). Official documentation for this module is [here](https://cdn-shop.adafruit.com/datasheets/gp2y0a710k.pdf).
 
 * Range: 1m-5.5m
 * Accuracy: Not officially stated
@@ -88,7 +88,7 @@ Sharp GP2Y0A710K0F comes with a color coded 5-pin JST cable. Color coding on the
 
 ### Source Code and Outputs
 
-Source code is adapted from Garmin [Github](https://github.com/garmin/LIDARLite_Arduino_Library/tree/master/examples/v4LED) ($29.95). The included file copies from [v4LED_fast.ino](https://github.com/garmin/LIDARLite_Arduino_Library/blob/master/examples/v4LED/v4LED_fast/v4LED_fast.ino), but `myLidarLite` is initialized using configuation `5` (high accuracy, low error mode).
+Source code is adapted from [Makerguides](https://www.makerguides.com/sharp-gp2y0a21yk0f-ir-distance-sensor-arduino-tutorial/). It has been modified to use 115200 baud rate to be consistent with other files in the repository.
 
 <img src="sharp_gp/serial_monitor.png" width="500">;
 
